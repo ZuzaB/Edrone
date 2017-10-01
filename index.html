@@ -14,9 +14,30 @@
           <div class="modal-header">
             <h4 class="modal-title" id="orderModalLabel">Formularz rejestracji klienta</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      </div>
+          </div>
           <div class="modal-body">
-            ...
+            <form>
+              <div class="form-group">
+                <label for="inputName">Imię</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Twoje imię">
+              </div>
+              <div class="form-group">
+                <label for="inputLastName">Nazwisko</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Twoje nazwisko">
+              </div>
+              <div class="form-group">
+                <label for="inputEmail">Adres email</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Wprowadź email">
+              </div>
+              <div class="form-group">
+                <label for="inputCity">Miasto</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Wprowadź miasto">
+              </div>
+              <div class="form-group">
+                <label for="inputCountry">Kraj</label>
+                <input type="text" class="form-control" id="inputCountry" placeholder="Wprowadź Kraj">
+              </div>
+            </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Anuluj</button>
@@ -53,11 +74,11 @@
         </ul>
         <span class="float-right">336,00 zł</span>
         <button type="button" class="btn btn-light btn-block" id="btn-add-to-chart">Dodaj do koszyka</button>
-        <ul class="">
-          <li>super szybka wysyłka <strong>0 zł</strong></li>
-          <li>aż <strong>365 dni</strong> na zwrot</li>
-          <li>darmowy zwrot i wymiana</li>
-        </ul>
+        <div>
+          <span>- super szybka wysyłka <strong>0 zł</strong></span><br/>
+          <span>- aż <strong>365 dni</strong> na zwrot</span><br/>
+          <span>- darmowy zwrot i wymiana</span>
+        </div>
       </div>
     </div>
     </section>
